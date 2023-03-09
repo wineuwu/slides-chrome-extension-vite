@@ -1,0 +1,20 @@
+{
+  "name": "slidev_extension",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export -- with clicks"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.40.2",
+    "@slidev/theme-bricks": "^0.0.2",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "slidev-theme-eloc": "^1.0.1",
+    "slidev-theme-smile": "^0.8.1"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.31.2"
+  }
+}
